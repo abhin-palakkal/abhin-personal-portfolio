@@ -1,0 +1,331 @@
+.home-section {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+
+  padding: 70px 7%;
+
+  background-color: #05070a;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 60px;
+
+  overflow: hidden;
+}
+
+/* =========================================
+   LEFT CONTENT
+========================================= */
+
+.home-main {
+  width: 56%;
+  max-width: 720px;
+}
+
+/* INTRODUCTION */
+
+.home-main-box1 {
+  margin-bottom: 38px;
+}
+
+.home-main-box1 h3 {
+  color: #ffffff;
+
+  font-size: 20px;
+  font-weight: 400;
+
+  margin-bottom: 10px;
+}
+
+.home-main-box1 h1 {
+  color: #ffffff;
+
+  font-size: clamp(42px, 4vw, 58px);
+  font-weight: 700;
+
+  line-height: 1.1;
+  letter-spacing: 1px;
+
+  margin-bottom: 14px;
+}
+
+.home-main-box1 h2 {
+  color: #3b82f6;
+
+  font-size: 30px;
+  font-weight: 500;
+
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+
+  margin-bottom: 22px;
+}
+
+.home-main-box1 p {
+  max-width: 650px;
+
+  color: #9ca3af;
+
+  font-size: 16px;
+  font-weight: 400;
+
+  line-height: 1.8;
+}
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.home-main-box2 {
+  display: flex;
+  align-items: center;
+
+  gap: 16px;
+
+  margin-bottom: 48px;
+}
+
+.home-main-box2 button {
+  min-width: 165px;
+
+  padding: 13px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  border-radius: 7px;
+
+  font-family: 'Inter', sans-serif;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+/* PRIMARY BUTTON */
+
+.home-main-box2 button:first-child {
+  background-color: #3b82f6;
+
+  border: 1px solid #3b82f6;
+
+  color: #ffffff;
+}
+
+.home-main-box2 button:first-child:hover {
+  background-color: #2563eb;
+
+  border-color: #2563eb;
+
+  transform: translateY(-2px);
+}
+
+/* SECONDARY BUTTON */
+
+.home-main-box2 button:last-child {
+  background-color: transparent;
+
+  border: 1px solid #30343b;
+
+  color: #d1d5db;
+}
+
+.home-main-box2 button:last-child:hover {
+  background-color: rgba(59, 130, 246, 0.06);
+
+  border-color: #3b82f6;
+
+  color: #ffffff;
+
+  transform: translateY(-2px);
+}
+
+/* BUTTON TEXT */
+
+.home-main-box2 button h3 {
+  margin: 0;
+
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.home-main-box2 button i {
+  font-size: 15px;
+}
+
+/* =========================================
+   TECHNOLOGIES
+========================================= */
+
+.home-main-box3 {
+  margin-top: 5px;
+}
+
+.home-main-box3 > h1 {
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  margin-bottom: 17px;
+}
+
+/* TECHNOLOGY CARDS */
+
+.home-skill-one,
+.home-skill-two,
+.home-skill-three,
+.home-skill-four {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  padding: 9px 14px;
+
+  margin-right: 8px;
+
+  border: 1px solid #252a31;
+
+  border-radius: 7px;
+
+  background-color: #0b0e13;
+
+  color: #9ca3af;
+
+  transition:
+    border-color 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease,
+    background-color 0.25s ease;
+}
+
+/* LOGOS */
+
+.home-skill-one img,
+.home-skill-two img,
+.home-skill-three img,
+.home-skill-four img {
+  width: 21px;
+  height: 21px;
+
+  object-fit: contain;
+
+  display: block;
+}
+
+/* TECHNOLOGY TEXT */
+
+.home-skill-one p,
+.home-skill-two p,
+.home-skill-three p,
+.home-skill-four p {
+  margin: 0;
+
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* TECHNOLOGY HOVER */
+
+.home-skill-one:hover,
+.home-skill-two:hover,
+.home-skill-three:hover,
+.home-skill-four:hover {
+  background-color: #0d1118;
+
+  border-color: #3b82f6;
+
+  color: #ffffff;
+
+  transform: translateY(-2px);
+}
+
+/* =========================================
+   RIGHT SIDE IMAGE
+========================================= */
+
+.home-image {
+  width: 44%;
+  max-width: 650px;
+
+  height: 600px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+}
+
+/* BLUE ATMOSPHERIC GLOW */
+
+.home-image::before {
+  content: '';
+
+  position: absolute;
+
+  width: 520px;
+  height: 520px;
+
+  border-radius: 50%;
+
+  background: radial-gradient(
+    circle,
+    rgba(37, 99, 235, 0.18) 0%,
+    rgba(37, 99, 235, 0.08) 38%,
+    transparent 72%
+  );
+
+  filter: blur(25px);
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  z-index: 0;
+
+  pointer-events: none;
+}
+
+/* IMAGE */
+
+.home-image img {
+  width: 115%;
+  height: 115%;
+
+  max-width: none;
+
+  object-fit: contain;
+
+  object-position: center;
+
+  display: block;
+
+  position: relative;
+
+  z-index: 1;
+
+  filter: drop-shadow(0 0 25px rgba(37, 99, 235, 0.12))
+    drop-shadow(0 0 60px rgba(37, 99, 235, 0.06));
+
+  transition: transform 0.4s ease;
+}
+
+/* IMAGE HOVER */
+
+.home-image:hover img {
+  transform: scale(1.015);
+}
