@@ -6,7 +6,6 @@ const Navbar = () => {
       <div className="nav-name">
         <h1>ABHIN</h1>
       </div>
-
       <div className="nav-list">
         <a href="#home">Home</a>
         <a href="#about">About</a>
@@ -14,13 +13,15 @@ const Navbar = () => {
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </div>
-
       <div className="nav-resume">
         <a href="/resume.pdf" target="_blank" rel="noreferrer">
           <span>Resume</span>
           <i className="fa-solid fa-download"></i>
         </a>
       </div>
+      <button className="nav-menu-button" aria-label="Open navigation menu">
+        <i className="fa-solid fa-bars"></i>
+      </button>
     </nav>
   );
 };

@@ -31,10 +31,10 @@
   height: 100%;
   display: flex;
   align-items: center;
-  font-family: 'Inter', sans-serif;
   position: relative;
   color: #d1d5db;
   text-decoration: none;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 500;
   transition: color 0.25s ease;
@@ -64,10 +64,13 @@
   text-decoration: none;
   border: 1px solid #30343b;
   border-radius: 7px;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 500;
-  transition: all 0.25s ease;
-  font-family: 'Inter', sans-serif;
+  transition:
+    color 0.25s ease,
+    border-color 0.25s ease,
+    background-color 0.25s ease;
 }
 
 .nav-resume a:hover {
@@ -78,4 +81,74 @@
 
 .nav-resume i {
   font-size: 17px;
+}
+
+.nav-menu-button {
+  display: none;
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 0 4%;
+  }
+
+  .nav-list {
+    gap: 28px;
+  }
+
+  .nav-list a {
+    font-size: 14px;
+  }
+
+  .nav-resume a {
+    padding: 9px 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    height: 65px;
+    padding: 0 6%;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .nav-resume {
+    display: none;
+  }
+
+  .nav-menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-name h1 {
+    font-size: 23px;
+    letter-spacing: 1.5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    height: 62px;
+    padding: 0 5%;
+  }
+
+  .nav-name h1 {
+    font-size: 21px;
+  }
+
+  .nav-menu-button {
+    font-size: 21px;
+  }
 }
