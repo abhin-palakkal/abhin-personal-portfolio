@@ -229,3 +229,284 @@
 
   white-space: nowrap;
 }
+/* =================================
+   TABLET
+================================= */
+
+@media (max-width: 1024px) {
+  .skills-section {
+    min-height: auto;
+
+    padding: 80px 6%;
+  }
+
+  .skills-heading {
+    margin-bottom: 40px;
+  }
+
+  .skills-heading h2 {
+    font-size: 32px;
+  }
+
+  .skills-heading p {
+    font-size: 14px;
+  }
+
+  .skills-grid {
+    gap: 18px;
+  }
+
+  .skills-card {
+    min-height: 200px;
+
+    padding: 25px;
+  }
+
+  .skills-card-heading {
+    margin-bottom: 22px;
+  }
+
+  .skills-card-heading h3 {
+    font-size: 17px;
+  }
+
+  .skill-item {
+    min-height: 44px;
+
+    padding: 8px 12px;
+
+    gap: 8px;
+  }
+
+  .skill-item img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .skill-item i {
+    width: 22px;
+    font-size: 19px;
+  }
+
+  .skill-item span {
+    font-size: 13px;
+  }
+}
+
+/* =================================
+   MOBILE
+================================= */
+
+@media (max-width: 768px) {
+  .skills-section {
+    min-height: auto;
+
+    padding: 70px 6% 80px;
+  }
+
+  .skills-container {
+    width: 100%;
+  }
+
+  /* =================================
+     SECTION HEADING
+  ================================= */
+
+  .skills-heading {
+    margin-bottom: 35px;
+  }
+
+  .skills-heading > i {
+    font-size: 20px;
+
+    margin-bottom: 12px;
+  }
+
+  .skills-heading h2 {
+    font-size: 29px;
+
+    margin-bottom: 10px;
+  }
+
+  .skills-heading p {
+    max-width: 600px;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+  }
+
+  /* =================================
+     SKILLS GRID
+  ================================= */
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+
+    gap: 16px;
+  }
+
+  /* =================================
+     SKILL CARD
+  ================================= */
+
+  .skills-card {
+    min-height: auto;
+
+    padding: 24px;
+
+    border-radius: 10px;
+  }
+
+  .skills-card-heading {
+    margin-bottom: 20px;
+  }
+
+  .skills-card-heading i {
+    font-size: 18px;
+  }
+
+  .skills-card-heading h3 {
+    font-size: 17px;
+  }
+
+  /* =================================
+     SKILL LIST
+  ================================= */
+
+  .skills-list {
+    gap: 9px;
+  }
+
+  /* =================================
+     SKILL ITEM
+  ================================= */
+
+  .skill-item {
+    min-height: 44px;
+
+    padding: 8px 12px;
+
+    gap: 8px;
+  }
+
+  .skill-item img {
+    width: 21px;
+    height: 21px;
+  }
+
+  .skill-item i {
+    width: 21px;
+
+    font-size: 18px;
+  }
+
+  .skill-item span {
+    font-size: 13px;
+  }
+}
+
+/* =================================
+   SMALL MOBILE
+================================= */
+
+@media (max-width: 480px) {
+  .skills-section {
+    padding: 55px 5% 65px;
+  }
+
+  /* =================================
+     SECTION HEADING
+  ================================= */
+
+  .skills-heading {
+    margin-bottom: 30px;
+  }
+
+  .skills-heading > i {
+    font-size: 19px;
+
+    margin-bottom: 10px;
+  }
+
+  .skills-heading h2 {
+    font-size: 26px;
+
+    margin-bottom: 9px;
+  }
+
+  .skills-heading p {
+    font-size: 13px;
+
+    line-height: 1.7;
+  }
+
+  /* =================================
+     SKILLS GRID
+  ================================= */
+
+  .skills-grid {
+    gap: 14px;
+  }
+
+  /* =================================
+     SKILL CARD
+  ================================= */
+
+  .skills-card {
+    padding: 21px;
+
+    border-radius: 9px;
+  }
+
+  .skills-card-heading {
+    gap: 10px;
+
+    margin-bottom: 18px;
+  }
+
+  .skills-card-heading i {
+    width: 20px;
+
+    font-size: 17px;
+  }
+
+  .skills-card-heading h3 {
+    font-size: 16px;
+  }
+
+  /* =================================
+     SKILL LIST
+  ================================= */
+
+  .skills-list {
+    gap: 8px;
+  }
+
+  /* =================================
+     SKILL ITEM
+  ================================= */
+
+  .skill-item {
+    min-height: 42px;
+
+    padding: 7px 10px;
+
+    gap: 7px;
+  }
+
+  .skill-item img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .skill-item i {
+    width: 20px;
+
+    font-size: 17px;
+  }
+
+  .skill-item span {
+    font-size: 12px;
+  }
+}
