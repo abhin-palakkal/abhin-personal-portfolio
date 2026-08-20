@@ -54,6 +54,12 @@ const Navbar = () => {
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
+        <div className="nav-mobile-resume">
+          <a href="/ABHIN.pdf" download="ABHIN.pdf">
+            <span>Resume</span>
+            <i className="fa-solid fa-download"></i>
+          </a>
+        </div>
       </aside>
     </nav>
   );
