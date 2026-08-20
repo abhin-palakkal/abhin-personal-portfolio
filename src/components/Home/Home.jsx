@@ -18,14 +18,15 @@ const Home = () => {
           </div>
 
           <div className="home-main-box2">
-            <button>
-              <h3>View projects</h3>
+            <a href="#projects" className="home-action-button primary">
+              <span>View Projects</span>
               <i className="fa-solid fa-arrow-right"></i>
-            </button>
-            <button>
+            </a>
+
+            <a href="#contact" className="home-action-button secondary">
               <i className="fa-regular fa-envelope"></i>
-              <h3>Contact me</h3>
-            </button>
+              <span>Contact Me</span>
+            </a>
           </div>
           <div className="home-main-box3">
             <h1>Technologies i work with</h1>
