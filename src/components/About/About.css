@@ -1,8 +1,7 @@
 .section-about {
   width: 100%;
-  min-height: 100vh;
 
-  padding: 100px 8%;
+  padding: 90px 7%;
 
   background-color: #05070a;
 
@@ -156,14 +155,13 @@
 
   transform: none;
 }
+
 /* =================================
    TABLET
 ================================= */
 
 @media (max-width: 1024px) {
   .section-about {
-    min-height: auto;
-
     padding: 80px 6%;
   }
 
@@ -185,6 +183,7 @@
 
   .about-box1 p {
     font-size: 15px;
+
     line-height: 1.75;
   }
 
@@ -217,8 +216,6 @@
 
 @media (max-width: 768px) {
   .section-about {
-    min-height: auto;
-
     padding: 70px 6%;
   }
 
