@@ -156,3 +156,213 @@
 
   transform: none;
 }
+/* =================================
+   TABLET
+================================= */
+
+@media (max-width: 1024px) {
+  .section-about {
+    min-height: auto;
+
+    padding: 80px 6%;
+  }
+
+  .section-about-container {
+    max-width: 100%;
+
+    padding: 40px;
+
+    gap: 40px;
+  }
+
+  .about-box1 {
+    padding-right: 30px;
+  }
+
+  .about-heading h2 {
+    font-size: 29px;
+  }
+
+  .about-box1 p {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  .about-box2 {
+    gap: 25px;
+  }
+
+  .about-box2-main {
+    grid-template-columns: 48px 1fr;
+
+    column-gap: 12px;
+  }
+
+  .about-box2-main > i {
+    font-size: 25px;
+  }
+
+  .about-box2-main h4 {
+    font-size: 16px;
+  }
+
+  .about-box2-main p {
+    font-size: 13px;
+  }
+}
+
+/* =================================
+   MOBILE
+================================= */
+
+@media (max-width: 768px) {
+  .section-about {
+    min-height: auto;
+
+    padding: 70px 6%;
+  }
+
+  .section-about-container {
+    width: 100%;
+
+    padding: 35px 30px;
+
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+
+    border-radius: 14px;
+  }
+
+  /* ABOUT INTRO */
+
+  .about-box1 {
+    padding-right: 0;
+
+    border-right: none;
+
+    padding-bottom: 35px;
+
+    border-bottom: 1px solid #30343b;
+  }
+
+  .about-heading {
+    gap: 10px;
+
+    margin-bottom: 18px;
+  }
+
+  .about-heading i {
+    font-size: 21px;
+  }
+
+  .about-heading h2 {
+    font-size: 27px;
+  }
+
+  .about-box1 p {
+    max-width: none;
+
+    font-size: 15px;
+
+    line-height: 1.75;
+  }
+
+  /* INFORMATION */
+
+  .about-box2 {
+    gap: 25px;
+
+    justify-content: flex-start;
+  }
+
+  .about-box2-main {
+    grid-template-columns: 48px 1fr;
+
+    column-gap: 12px;
+  }
+
+  .about-box2-main > i {
+    font-size: 24px;
+  }
+
+  .about-box2-main h4 {
+    font-size: 16px;
+
+    margin-bottom: 4px;
+  }
+
+  .about-box2-main p {
+    font-size: 13px;
+
+    line-height: 1.6;
+  }
+}
+
+/* =================================
+   SMALL MOBILE
+================================= */
+
+@media (max-width: 480px) {
+  .section-about {
+    padding: 55px 5% 65px;
+  }
+
+  .section-about-container {
+    padding: 30px 22px;
+
+    gap: 32px;
+
+    border-radius: 12px;
+  }
+
+  /* ABOUT INTRO */
+
+  .about-box1 {
+    padding-bottom: 30px;
+  }
+
+  .about-heading {
+    margin-bottom: 16px;
+  }
+
+  .about-heading i {
+    font-size: 20px;
+  }
+
+  .about-heading h2 {
+    font-size: 24px;
+  }
+
+  .about-box1 p {
+    font-size: 14px;
+
+    line-height: 1.75;
+  }
+
+  /* INFORMATION */
+
+  .about-box2 {
+    gap: 22px;
+  }
+
+  .about-box2-main {
+    grid-template-columns: 42px 1fr;
+
+    column-gap: 10px;
+  }
+
+  .about-box2-main > i {
+    font-size: 22px;
+  }
+
+  .about-box2-main h4 {
+    font-size: 15px;
+  }
+
+  .about-box2-main p {
+    font-size: 13px;
+
+    line-height: 1.55;
+  }
+}
