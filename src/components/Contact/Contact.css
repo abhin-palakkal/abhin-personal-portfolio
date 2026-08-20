@@ -266,3 +266,319 @@
 .contact-submit i {
   font-size: 13px;
 }
+/* =================================
+   TABLET
+================================= */
+
+@media (max-width: 1024px) {
+  .contact-section {
+    min-height: auto;
+
+    padding: 80px 6%;
+  }
+
+  /* HEADING */
+
+  .contact-heading {
+    margin-bottom: 40px;
+  }
+
+  .contact-heading h2 {
+    font-size: 32px;
+  }
+
+  .contact-heading p {
+    font-size: 14px;
+  }
+
+  /* CONTACT CONTENT */
+
+  .contact-content {
+    grid-template-columns: 0.9fr 1.1fr;
+
+    gap: 40px;
+
+    padding: 30px;
+  }
+
+  /* CONTACT INFORMATION */
+
+  .contact-info {
+    gap: 25px;
+  }
+
+  .contact-info-item {
+    gap: 13px;
+  }
+
+  .contact-info-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .contact-info-icon i {
+    font-size: 17px;
+  }
+
+  .contact-info-item h3 {
+    font-size: 14px;
+  }
+
+  .contact-info-item p {
+    font-size: 12px;
+  }
+
+  /* FORM */
+
+  .contact-form {
+    gap: 16px;
+  }
+
+  .contact-form-row {
+    gap: 14px;
+  }
+}
+
+/* =================================
+   MOBILE
+================================= */
+
+@media (max-width: 768px) {
+  .contact-section {
+    min-height: auto;
+
+    padding: 70px 6% 80px;
+  }
+
+  /* HEADING */
+
+  .contact-heading {
+    margin-bottom: 35px;
+  }
+
+  .contact-heading > i {
+    font-size: 20px;
+
+    margin-bottom: 12px;
+  }
+
+  .contact-heading h2 {
+    font-size: 29px;
+
+    margin-bottom: 10px;
+  }
+
+  .contact-heading p {
+    font-size: 14px;
+
+    line-height: 1.7;
+  }
+
+  /* CONTACT CONTENT */
+
+  .contact-content {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+
+    padding: 28px;
+
+    border-radius: 10px;
+  }
+
+  /* CONTACT INFORMATION */
+
+  .contact-info {
+    gap: 22px;
+  }
+
+  .contact-info-item {
+    gap: 14px;
+  }
+
+  .contact-info-icon {
+    width: 46px;
+    height: 46px;
+  }
+
+  .contact-info-icon i {
+    font-size: 18px;
+  }
+
+  .contact-info-item h3 {
+    font-size: 15px;
+  }
+
+  .contact-info-item p {
+    font-size: 13px;
+
+    line-height: 1.5;
+  }
+
+  /* FORM */
+
+  .contact-form {
+    gap: 17px;
+  }
+
+  .contact-form-row {
+    grid-template-columns: 1fr;
+
+    gap: 17px;
+  }
+
+  .contact-field {
+    gap: 7px;
+  }
+
+  .contact-field label {
+    font-size: 13px;
+  }
+
+  .contact-field input,
+  .contact-field textarea {
+    font-size: 14px;
+  }
+
+  .contact-field input {
+    height: 45px;
+  }
+
+  .contact-field textarea {
+    min-height: 140px;
+  }
+
+  /* SUBMIT */
+
+  .contact-submit {
+    width: 100%;
+
+    padding: 13px 20px;
+  }
+}
+
+/* =================================
+   SMALL MOBILE
+================================= */
+
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 55px 5% 65px;
+  }
+
+  /* HEADING */
+
+  .contact-heading {
+    margin-bottom: 30px;
+  }
+
+  .contact-heading > i {
+    font-size: 19px;
+
+    margin-bottom: 10px;
+  }
+
+  .contact-heading h2 {
+    font-size: 26px;
+
+    margin-bottom: 9px;
+  }
+
+  .contact-heading p {
+    font-size: 13px;
+
+    line-height: 1.7;
+  }
+
+  /* CONTACT CONTENT */
+
+  .contact-content {
+    gap: 32px;
+
+    padding: 22px;
+
+    border-radius: 9px;
+  }
+
+  /* CONTACT INFORMATION */
+
+  .contact-info {
+    gap: 20px;
+  }
+
+  .contact-info-item {
+    gap: 12px;
+  }
+
+  .contact-info-icon {
+    width: 42px;
+    height: 42px;
+
+    border-radius: 7px;
+  }
+
+  .contact-info-icon i {
+    font-size: 17px;
+  }
+
+  .contact-info-item h3 {
+    font-size: 14px;
+
+    margin-bottom: 4px;
+  }
+
+  .contact-info-item p {
+    font-size: 12px;
+
+    line-height: 1.5;
+
+    overflow-wrap: anywhere;
+  }
+
+  /* FORM */
+
+  .contact-form {
+    gap: 15px;
+  }
+
+  .contact-form-row {
+    gap: 15px;
+  }
+
+  .contact-field {
+    gap: 7px;
+  }
+
+  .contact-field label {
+    font-size: 12px;
+  }
+
+  .contact-field input,
+  .contact-field textarea {
+    padding: 11px 12px;
+
+    font-size: 13px;
+
+    border-radius: 6px;
+  }
+
+  .contact-field input {
+    height: 43px;
+  }
+
+  .contact-field textarea {
+    min-height: 130px;
+  }
+
+  /* SUBMIT */
+
+  .contact-submit {
+    padding: 12px 18px;
+
+    font-size: 13px;
+  }
+
+  .contact-submit i {
+    font-size: 12px;
+  }
+}
